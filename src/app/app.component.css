@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .under-construction {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    z-index: 1000; /* Ensure it appears above all content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .construction-text {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .main-content {
+    filter: blur(5px); /* Blur effect for main content */
+    pointer-events: none; /* Disable interactions with the main content */
+  }
+
+  .construction-text h6{
+    /* font-size: 1.3rem; */
+    font-weight: lighter;
+  }
+  
