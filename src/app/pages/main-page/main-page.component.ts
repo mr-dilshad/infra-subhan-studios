@@ -7,6 +7,10 @@ import { AboutUsComponent } from '../../components/about-us/about-us.component';
 import { OurServicesComponent } from '../../components/our-services/our-services.component';
 import { ChooseUsComponent } from '../../components/choose-us/choose-us.component';
 import { ProjectsComponent } from '../../components/projects/projects.component';
+import { TeamComponent } from '../../components/team/team.component';
+import { AppointmentComponent } from '../../components/appointment/appointment.component';
+import { TestimonialComponent } from '../../components/testimonial/testimonial.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-main-page',
@@ -20,6 +24,10 @@ import { ProjectsComponent } from '../../components/projects/projects.component'
     OurServicesComponent,
     ChooseUsComponent,
     ProjectsComponent,
+    TeamComponent,
+    AppointmentComponent,
+    TestimonialComponent,
+    FooterComponent,
   ],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css',
